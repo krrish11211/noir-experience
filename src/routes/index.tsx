@@ -6,15 +6,11 @@ import { Cursor } from "@/components/noir/Cursor";
 import { Nav } from "@/components/noir/Nav";
 import { Hero } from "@/components/noir/Hero";
 import { Philosophy } from "@/components/noir/Philosophy";
-import { PlateJourney } from "@/components/noir/PlateJourney";
-import { Ritual } from "@/components/noir/Ritual";
-import { Orbit } from "@/components/noir/Orbit";
-import { Lunch, Aperitivo, Dinner, Midnight } from "@/components/noir/DayPhases";
-import { Kitchen } from "@/components/noir/Kitchen";
-import { Signature } from "@/components/noir/Signature";
-import { Chef } from "@/components/noir/Chef";
-import { Space } from "@/components/noir/Space";
-import { PrivateDining } from "@/components/noir/PrivateDining";
+import { DiningRitual } from "@/components/noir/DiningRitual";
+import { Evening } from "@/components/noir/Evening";
+import { KitchenToTable } from "@/components/noir/KitchenToTable";
+import { SignatureMenu } from "@/components/noir/SignatureMenu";
+import { House } from "@/components/noir/House";
 import { Reservation } from "@/components/noir/Reservation";
 import { Footer } from "@/components/noir/Footer";
 import { useReducedMotion, useSmoothScroll } from "@/hooks/use-noir";
@@ -51,23 +47,17 @@ function Index() {
       <Nav />
 
       <main>
-        <Hero ready={ready} />
-        <Philosophy />
-        <PlateJourney />
-        <Ritual />
-        <Orbit />
-        <Lunch />
-        <Aperitivo />
-        <Dinner />
-        <Midnight />
-        <Kitchen />
-        <Signature />
-        <Chef />
-        <Space />
-        <PrivateDining />
-        <Reservation />
+        {/* 01 */} <Hero ready={ready} />
+        {/* 02 */} <Philosophy />
+        {/* 03 */} <DiningRitual />
+        {/* 04 */} <Evening />
+        {/* 05 */} <KitchenToTable />
+        {/* 06 */} <SignatureMenu />
+        {/* 07 */} <House />
+        {/* 08 */} <Reservation />
       </main>
 
+      {/* 09 */}
       <Footer />
     </div>
   );
