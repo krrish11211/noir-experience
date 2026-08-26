@@ -52,7 +52,7 @@ export function Aperitivo() {
       <div ref={ref} className="relative h-[260vh]">
         <div className="sticky top-0 h-[100svh] overflow-hidden" style={{ background: bg }}>
           <div
-            className="absolute top-1/2 left-1/2 h-[62vh] w-[42vw] max-w-[420px] min-w-[220px] -translate-y-1/2 overflow-hidden will-change-transform"
+            className="absolute top-1/2 left-1/2 h-[62vh] w-[42vw] max-w-[420px] min-w-[220px] overflow-hidden will-change-transform"
             style={{
               transform: `translate(-50%, -50%) translateX(${(progress - 0.5) * 62}vw) rotate(${(progress - 0.5) * 8}deg)`,
             }}

@@ -41,7 +41,7 @@ export function Orbit() {
 
               {/* centre object */}
               <div
-                className="plate-shadow absolute top-1/2 left-1/2 aspect-square w-[38%] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full will-change-transform"
+                className="plate-shadow absolute top-1/2 left-1/2 aspect-square w-[38%] overflow-hidden rounded-full will-change-transform"
                 style={{ transform: `translate(-50%, -50%) rotate(${-turn * 0.6}deg)` }}
               >
                 <img
