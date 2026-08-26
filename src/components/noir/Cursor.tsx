@@ -31,7 +31,7 @@ export function Cursor() {
       ty = e.clientY;
       setActive(true);
       const target = (e.target as HTMLElement | null)?.closest<HTMLElement>("[data-cursor]");
-      const value = target?.dataset.cursor;
+      const value = target?.dataset['cursor'];
       setLabel(value && value !== "link" ? value : null);
     };
     const onLeave = () => setActive(false);

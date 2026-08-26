@@ -57,7 +57,7 @@ export function Signature() {
             <div className="flex items-start justify-between">
               <SectionIndex index="11" label="Signature Plates" />
               <span className="font-display text-champagne text-sm">
-                {DISHES[active].n} / 0{DISHES.length}
+                {DISHES[active]?.n} / 0{DISHES.length}
               </span>
             </div>
 

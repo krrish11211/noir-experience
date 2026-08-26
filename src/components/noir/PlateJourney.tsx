@@ -57,7 +57,7 @@ export function PlateJourney() {
             <div className="flex items-start justify-between">
               <SectionIndex index="04" label="The Plate" />
               <span className="font-display text-champagne text-sm">
-                {COURSES[active].n} / 0{stages}
+                {COURSES[active]?.n} / 0{stages}
               </span>
             </div>
 

@@ -92,7 +92,7 @@ export function Orbit() {
           <div className="mx-auto w-full max-w-[1600px] px-6 pb-20 md:px-12">
             <div className="hairline mb-6" />
             <p className="display text-ivory text-[clamp(1.3rem,3vw,2.4rem)]">
-              {PHASES[active].note}
+              {PHASES[active]?.note}
             </p>
           </div>
         </div>
