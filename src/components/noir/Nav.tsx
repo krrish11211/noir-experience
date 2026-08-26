@@ -3,10 +3,10 @@ import { useScrollTo } from "@/hooks/use-noir";
 import { cn } from "@/lib/utils";
 
 const LINKS = [
-  { label: "Experience", id: "ritual" },
-  { label: "Menu", id: "signature" },
-  { label: "Our Story", id: "chef" },
-  { label: "Private Dining", id: "private" },
+  { label: "Philosophy", id: "philosophy" },
+  { label: "The Ritual", id: "ritual" },
+  { label: "Menu", id: "menu" },
+  { label: "The House", id: "house" },
 ];
 
 export function Nav() {
