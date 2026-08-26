@@ -123,7 +123,7 @@ export function Hero({ ready }: { ready: boolean }) {
       {/* plate object */}
       <div
         ref={plate}
-        className="hero-plate plate-shadow pointer-events-none absolute top-[30%] left-1/2 aspect-square w-[64vw] max-w-[620px] -translate-x-1/2 -translate-y-1/2 rounded-full opacity-0 will-change-transform md:top-1/2 md:left-[68%] md:w-[42vw]"
+        className="hero-plate plate-shadow pointer-events-none absolute top-[24%] left-1/2 aspect-square w-[58vw] max-w-[620px] -translate-x-1/2 -translate-y-1/2 rounded-full opacity-0 will-change-transform md:top-1/2 md:left-[68%] md:w-[42vw]"
         style={{ transform: "scale(0.92)" }}
       >
         <img
