@@ -1,9 +1,9 @@
 import { useScrollTo } from "@/hooks/use-noir";
 
 const NAV = [
-  { label: "Menu", id: "signature" },
-  { label: "Experience", id: "ritual" },
-  { label: "Private Dining", id: "private" },
+  { label: "Menu", id: "menu" },
+  { label: "The Evening", id: "evening" },
+  { label: "The House", id: "house" },
   { label: "Reservations", id: "reserve" },
   { label: "Contact", id: "reserve" },
 ];
